@@ -286,7 +286,7 @@ class snmp (
   $manage_client           = $snmp::params::manage_client,
   $snmp_config             = $snmp::params::snmp_config,
   $ensure                  = $snmp::params::ensure,
-  $autoupgrade             = $snmp::params::safe_autoupgrade,
+  $autoupgrade             = $snmp::params::autoupgrade,
   $package_name            = $snmp::params::package_name,
   $snmpd_options           = $snmp::params::snmpd_options,
   $service_ensure          = $snmp::params::service_ensure,
