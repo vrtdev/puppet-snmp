@@ -143,10 +143,9 @@ class snmp::params {
       $varnetsnmp_perms         = '0755'
       $varnetsnmp_owner         = 'snmp'
       $varnetsnmp_group         = 'snmp'
-
+      $trap_service_name        = undef
       $client_package_name      = 'snmp'
       $client_config            = '/etc/snmp/snmp.conf'
-
       $trap_service_config      = '/etc/snmp/snmptrapd.conf'
       $snmptrapd_options        = '-Lsd -p /var/run/snmptrapd.pid'
     }
