@@ -283,7 +283,7 @@ class snmp (
   $trap_forwards           = $snmp::params::trap_forwards,
   $snmptrapd_config        = $snmp::params::snmptrapd_config,
   $install_client          = $snmp::params::install_client,
-  $manage_client           = $snmp::params::safe_manage_client,
+  $manage_client           = $snmp::params::manage_client,
   $snmp_config             = $snmp::params::snmp_config,
   $ensure                  = $snmp::params::ensure,
   $autoupgrade             = $snmp::params::safe_autoupgrade,
